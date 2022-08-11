@@ -56,7 +56,7 @@ We resort to plain vision transformers with about 100M and make the first attemp
 | Method | Pretrain | Backbone | Lr schd | mAP | Config | Log | Model |
 | ------ |----------| -------- | --------- | ------- | --- | ------ | --- |
 | Oriented R-CNN | MAE | ViT-B + RVSA | 1x | 81.01 | Coming Soon | Coming Soon | Coming Soon |
-| Oriented R-CNN | MAE | ViT-B + RVSA$^\Diamond$ | 80.51 | 89.91 | Coming Soon | Coming Soon | Coming Soon |
+| Oriented R-CNN | MAE | ViT-B + RVSA $^ \Diamond$ | 1x | 80.51 | Coming Soon | Coming Soon | Coming Soon |
 | Oriented R-CNN | MAE | ViTAE-B + RVSA | 1x | 81.16 | Coming Soon | Coming Soon | Coming Soon |
-| Oriented R-CNN | MAE | ViTAE-B + RVSA$^\Diamond$ | 1x | 80.97 | Coming Soon | Coming Soon | Coming Soon |
+| Oriented R-CNN | MAE | ViTAE-B + RVSA $^ \Diamond$ | 1x | 80.97 | Coming Soon | Coming Soon | Coming Soon |
 
