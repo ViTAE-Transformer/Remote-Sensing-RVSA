@@ -45,10 +45,10 @@ We resort to plain vision transformers with about 100M and make the first attemp
 ### Pretraining 
 
 #### MillionAID
-|Pretrain|Backbone | Input size | Pretrained model|
-|-------|-------- | ----------  | ----- |
-| MAE | ViT-B | 224 × 224 | Coming Soon |
-| MAE | ViTAE-B | 224 × 224 | Coming Soon |
+|Pretrain|Backbone | Input size | Params (M) | Pretrained model|
+|-------|-------- | ----------  | ----- | ----- |
+| MAE | ViT-B | 224 × 224 | 86| Coming Soon |
+| MAE | ViTAE-B | 224 × 224 | 89 | Coming Soon |
 
 ### Object Detection
 
