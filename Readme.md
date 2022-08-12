@@ -60,3 +60,40 @@ We resort to plain vision transformers with about 100M and make the first attemp
 | Oriented R-CNN | MAE | ViTAE-B + RVSA | 1x | 81.16 | Coming Soon | Coming Soon | Coming Soon |
 | Oriented R-CNN | MAE | ViTAE-B + RVSA $^ \Diamond$ | 1x | 80.97 | Coming Soon | Coming Soon | Coming Soon |
 
+#### DIOR-R
+| Method | Pretrain | Backbone | Lr schd | mAP | Config | Log | Model |
+| ------ |----------| -------- | --------- | ------- | --- | ------ | --- |
+| Oriented R-CNN | MAE | ViT-B + RVSA | 1x | 70.67 | Coming Soon | Coming Soon | Coming Soon |
+| Oriented R-CNN | MAE | ViT-B + RVSA $^ \Diamond$ | 1x | 70.85 | Coming Soon | Coming Soon | Coming Soon |
+| Oriented R-CNN | MAE | ViTAE-B + RVSA | 1x | 70.95 | Coming Soon | Coming Soon | Coming Soon |
+| Oriented R-CNN | MAE | ViTAE-B + RVSA $^ \Diamond$ | 1x | 71.05 | Coming Soon | Coming Soon | Coming Soon |
+
+### Semantic Segmentation
+
+### ISPRS Potsdam
+
+| Method | Pretrain | Backbone | Crop size | Lr schd | OA | Config | Log | Model |
+| ------ | ----------|-------- | --------- | ------- | --- | ------ | --- | ----- |
+| UperNet| MAE | ViT-B + RVSA | 512 × 512 | 160k | 90.60 | Coming Soon | Coming Soon | Coming Soon |
+| UperNet| MAE | ViT-B + RVSA $^ \Diamond$ | 512 × 512 | 160k | 90.77 | Coming Soon | Coming Soon | Coming Soon |
+| UperNet| MAE | ViTAE-B + RVSA | 512 × 512 | 160k | 91.22 | Coming Soon | Coming Soon | Coming Soon |
+| UperNet| MAE | ViTAE-B + RVSA $^ \Diamond$ | 512 × 512 | 160k | 91.15 | Coming Soon | Coming Soon | Coming Soon |
+
+### iSAID
+
+| Method | Pretrain | Backbone | Crop size | Lr schd | mIOU | Config | Log | Model |
+| ------ | ----------|-------- | --------- | ------- | --- | ------ | --- | ----- |
+| UperNet| MAE | ViT-B + RVSA | 896 × 896 | 160k | 63.76 | Coming Soon | Coming Soon | Coming Soon |
+| UperNet| MAE | ViT-B + RVSA $^ \Diamond$ | 896 × 896 | 160k | 63.85 | Coming Soon | Coming Soon | Coming Soon |
+| UperNet| MAE | ViTAE-B + RVSA | 896 × 896 | 160k | 63.48 | Coming Soon | Coming Soon | Coming Soon |
+| UperNet| MAE | ViTAE-B + RVSA $^ \Diamond$ | 896 × 896 | 160k | 64.49 | Coming Soon | Coming Soon | Coming Soon |
+
+### LoveDA
+
+| Method | Pretrain | Backbone | Crop size | Lr schd | mIOU | Config | Log | Model |
+| ------ | ----------|-------- | --------- | ------- | --- | ------ | --- | ----- |
+| UperNet| MAE | ViT-B + RVSA | 512 × 512 | 160k | 51.95 | Coming Soon | Coming Soon | Coming Soon |
+| UperNet| MAE | ViT-B + RVSA $^ \Diamond$ | 512 × 512 | 160k | 51.95 | Coming Soon | Coming Soon | Coming Soon |
+| UperNet| MAE | ViTAE-B + RVSA | 512 × 512 | 160k | 52.26 | Coming Soon | Coming Soon | Coming Soon |
+| UperNet| MAE | ViTAE-B + RVSA $^ \Diamond$ | 512 × 512 | 160k | 52.44 | Coming Soon | Coming Soon | Coming Soon |
+
