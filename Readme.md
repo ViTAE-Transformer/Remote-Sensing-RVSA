@@ -19,12 +19,11 @@
 
 > **ViTAE: Please see [ViTAE-Transformer](https://github.com/ViTAE-Transformer/ViTAE-Transformer)**;
 
-> **VSA: Please see [ViTAE-VSA](https://github.com/ViTAE-Transformer/ViTAE-Transformer-Remote-Sensing/tree/main/Scene%20Recognition)**;
+> **VSA: Please see [ViTAE-VSA](https://github.com/ViTAE-Transformer/ViTAE-VSA)**;
 
 > **Matting: Please see [ViTAE-Transformer for matting](https://github.com/ViTAE-Transformer/ViTAE-Transformer-Matting)**;
 
 > **Remote Sensing Pretraining: Please see [ViTAE-Transformer-Remote-Sensing](https://github.com/ViTAE-Transformer/ViTAE-Transformer-Remote-Sensing)**;
-
 
 
 ## Introduction
@@ -96,4 +95,3 @@ We resort to plain vision transformers with about 100M and make the first attemp
 | UperNet| MAE | ViT-B + RVSA $^ \Diamond$ | 512 × 512 | 160k | 51.95 | Coming Soon | Coming Soon | Coming Soon |
 | UperNet| MAE | ViTAE-B + RVSA | 512 × 512 | 160k | 52.26 | Coming Soon | Coming Soon | Coming Soon |
 | UperNet| MAE | ViTAE-B + RVSA $^ \Diamond$ | 512 × 512 | 160k | 52.44 | Coming Soon | Coming Soon | Coming Soon |
-
