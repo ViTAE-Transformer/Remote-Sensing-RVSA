@@ -78,7 +78,7 @@ We resort to plain vision transformers with about 100M and make the first attemp
 
 ### Semantic Segmentation
 
-### ISPRS Potsdam
+#### ISPRS Potsdam
 
 | Method | Pretrain | Backbone | Crop size | Lr schd | OA | Config | Log | Model |
 | ------ | ----------|-------- | --------- | ------- | --- | ------ | --- | ----- |
@@ -87,7 +87,7 @@ We resort to plain vision transformers with about 100M and make the first attemp
 | UperNet| MAE | ViTAE-B + RVSA | 512 × 512 | 160k | 91.22 | Coming Soon | Coming Soon | Coming Soon |
 | UperNet| MAE | ViTAE-B + RVSA $^ \Diamond$ | 512 × 512 | 160k | 91.15 | Coming Soon | Coming Soon | Coming Soon |
 
-### iSAID
+#### iSAID
 
 | Method | Pretrain | Backbone | Crop size | Lr schd | mIOU | Config | Log | Model |
 | ------ | ----------|-------- | --------- | ------- | --- | ------ | --- | ----- |
@@ -96,7 +96,7 @@ We resort to plain vision transformers with about 100M and make the first attemp
 | UperNet| MAE | ViTAE-B + RVSA | 896 × 896 | 160k | 63.48 | Coming Soon | Coming Soon | Coming Soon |
 | UperNet| MAE | ViTAE-B + RVSA $^ \Diamond$ | 896 × 896 | 160k | 64.49 | Coming Soon | Coming Soon | Coming Soon |
 
-### LoveDA
+#### LoveDA
 
 | Method | Pretrain | Backbone | Crop size | Lr schd | mIOU | Config | Log | Model |
 | ------ | ----------|-------- | --------- | ------- | --- | ------ | --- | ----- |
@@ -104,3 +104,20 @@ We resort to plain vision transformers with about 100M and make the first attemp
 | UperNet| MAE | ViT-B + RVSA $^ \Diamond$ | 512 × 512 | 160k | 51.95 | Coming Soon | Coming Soon | Coming Soon |
 | UperNet| MAE | ViTAE-B + RVSA | 512 × 512 | 160k | 52.26 | Coming Soon | Coming Soon | Coming Soon |
 | UperNet| MAE | ViTAE-B + RVSA $^ \Diamond$ | 512 × 512 | 160k | 52.44 | Coming Soon | Coming Soon | Coming Soon |
+
+### Scene Classification
+
+|Pretrain | Backbone | UCM-55 | AID-28 | AID-55 | NWPU-19 | NWPU-28 |
+|----------|-------- | --------- | ------- | --- | ------ | --- | 
+| MAE | ViT-B + RVSA | 99.70 | 96.92 | 98.33 | 93.79 | 95.49 |
+|     |              |Coming Soon | Coming Soon | Coming Soon | Coming Soon | Coming Soon |
+| MAE | ViT-B + RVSA $^ \Diamond$ | 99.58 | 96.86 | 98.44 | 93.74 | 95.45 |
+|     |              |Coming Soon | Coming Soon | Coming Soon | Coming Soon | Coming Soon |
+| MAE | ViTAE-B + RVSA | 99.56 | 97.03 | 98.48 | 93.93 | 95.69 |
+|     |              |Coming Soon | Coming Soon | Coming Soon | Coming Soon | Coming Soon |
+| MAE | ViTAE-B + RVSA $^ \Diamond$ | 99.50 | 97.01 | 98.50 | 93.92 | 95.66|
+|     |              |Coming Soon | Coming Soon | Coming Soon | Coming Soon | Coming Soon |
+
+
+
+
