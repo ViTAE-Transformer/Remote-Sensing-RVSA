@@ -56,10 +56,9 @@ We resort to plain vision transformers with about 100M and make the first attemp
 | ------ |----------| -------- | --------- | ------- | --- | ------ | --- |
 | Oriented R-CNN | MAE | ViT-B + RVSA | 1x | 78.75 | Coming Soon | Coming Soon | Coming Soon |
 | Oriented R-CNN | MAE | ViT-B + RVSA $^ \Diamond$ | 1x | 78.61 | Coming Soon | Coming Soon | Coming Soon |
-| Oriented R-CNN | MAE | ViTAE-B + RVSA | 1x | 78.63/78.96* | Coming Soon | Coming Soon | Coming Soon |
-| Oriented R-CNN | MAE | ViTAE-B + RVSA $^ \Diamond$ | 1x | 78.92/78.99* | Coming Soon | Coming Soon | Coming Soon |
+| Oriented R-CNN | MAE | ViTAE-B + RVSA | 1x | 78.96 | Coming Soon | Coming Soon | Coming Soon |
+| Oriented R-CNN | MAE | ViTAE-B + RVSA $^ \Diamond$ | 1x | 78.99 | Coming Soon | Coming Soon | Coming Soon |
 
-*: The ViTAE-B series models that mAP=78.63 and 78.92 reported in the paper were carelessly deleted, and we retrained two models and obtained accuracies of 78.96 and 78.99
 
 #### DOTA-V1.0 Multi-Scale
 | Method | Pretrain | Backbone | Lr schd | mAP | Config | Log | Model |
