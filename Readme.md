@@ -51,7 +51,7 @@ We resort to plain vision transformers with about 100M and make the first attemp
 
 ### Object Detection
 
-#### DOTA-V1.0 Single-scale
+#### DOTA-V1.0 Single-Scale
 | Method | Pretrain | Backbone | Lr schd | mAP | Config | Log | Model |
 | ------ |----------| -------- | --------- | ------- | --- | ------ | --- |
 | Oriented R-CNN | MAE | ViT-B + RVSA | 1x | 78.75 | Coming Soon | Coming Soon | Coming Soon |
@@ -61,7 +61,7 @@ We resort to plain vision transformers with about 100M and make the first attemp
 
 *: The ViTAE-B series models that mAP=78.63 and 78.92 reported in the paper were carelessly deleted, and we retrained two models and obtained accuracies of 78.95 and 78.99
 
-#### DOTA-V1.0 Multi-scale
+#### DOTA-V1.0 Multi-Scale
 | Method | Pretrain | Backbone | Lr schd | mAP | Config | Log | Model |
 | ------ |----------| -------- | --------- | ------- | --- | ------ | --- |
 | Oriented R-CNN | MAE | ViT-B + RVSA | 1x | 81.01 | Coming Soon | Coming Soon | Coming Soon |
