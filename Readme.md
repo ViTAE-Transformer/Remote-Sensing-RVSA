@@ -185,6 +185,8 @@ CUDA_VISIBLE_DEVICES=0 python tools/test.py configs/obb/oriented_rcnn/vit_base_w
 --show-dir work_dirs/save/faster/display/faster_rcnn_orpn_our_rsp_vitae-nc-base-win-rvsa_v3_wsz7_fpn_3x_dior_lr1e-4_ldr75_dpr10
 ```
 
+*Note: the pathes of saved maps and outputs should be constructed before evaluating the DIOR-R testing set.*
+
 #### Training & Evaluation-Segmentation
 
 Training and evaluation the UperNet with ViT-B + RVSA backbone on Potsdam dataset:
@@ -197,6 +199,6 @@ configs/vit_base_win/upernet_vit_base_win_rvsa_v3_512x512_160k_potsdam_rgb_dpr10
 
 *Note: when training on the LoveDA, please add `--no-validate`*
 
-========== When finetuning with more than 1 GPU for detection or segmentation, please use `nn.SyncBatchNorm` in the NormalCell of ViTAE models.========== 
+##### ***When finetuning with more than 1 GPU for detection or segmentation, please use `nn.SyncBatchNorm` in the NormalCell of ViTAE models.***
 
 
