@@ -118,6 +118,74 @@ We resort to plain vision transformers with about 100M and make the first attemp
 | UperNet| MAE | ViTAE-B + RVSA | 512 × 512 | 160k | 52.26 | Coming Soon | Coming Soon | Coming Soon |
 | UperNet| MAE | ViTAE-B + RVSA $^ \Diamond$ | 512 × 512 | 160k | 52.44 | Coming Soon | Coming Soon | Coming Soon |
 
+## Usage
+
+### Pretraining & Finetuning-Classification
+
+To be continued。。
+
+### Finetuning-Detection & Finetuning-Segmentation
+
+Since we use OBBDetection and MMSegmenation to implement corresponding detection or segmentation models, we only provide necessary config and backbone files. The main frameworks are both in [ViTAE-Transformer-Remote-Sensing](https://github.com/ViTAE-Transformer/ViTAE-Transformer-Remote-Sensing)
+
+```
+git clone https://github.com/DotWang/Remote-Sensing-Pretraining.git
+```
+
+The installation and dataset preparation can separately refer [OBBDetection-installation](https://github.com/jbwang1997/OBBDetection/blob/master/docs/install.md) and 
+[MMSegmentation-installation](https://github.com/open-mmlab/mmsegmentation/blob/master/docs/en/get_started.md#installation)
+
+Then put these files into corresponding folders.
+
+For convenience, we preserve the relative path for users to find files.
+
+For example, put `./Object Detection/mmdet/models/backbones/vit_win_rvsa_v3_wsz7.py` into `ViTAE-Transformer-Remote-Sensing/mmdet/models/backbones`
+
+*Note: When finetuning with more than one GPU, please use `nn.SyncBatchNorm` in the NormalCell of ViTAE models.*
+
+#### Training-Detection
+
+`cd ./Object Detection` 
+
+Then, we provide several examples. For instance, 
+
+Training the Oriented-RCNN with ViT-B + RVSA on DOTA-V1.0 multi-scale detection dataset with 2 GPUs
+
+```
+CUDA_VISIBLE_DEVICES=0,1 python -m torch.distributed.launch --nproc_per_node=2 --master_port=40000 tools/train.py \
+configs/obb/oriented_rcnn/vit_base_win/faster_rcnn_orpn_our_rsp_vit-base-win-rvsa_v3_wsz7_fpn_1x_dota10_ms_lr1e-4_ldr75_dpr15.py \
+--launcher 'pytorch' --options 'find_unused_parameters'=True
+```
+
+Training the Oriented-RCNN with ViTAE-B + RVSA $^ \Diamond$ backbone on DIOR-R detection dataset with 1 GPU
+
+```
+CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node=1 --master_port=40001 tools/train.py \
+configs/obb/oriented_rcnn/vit_base_win/faster_rcnn_orpn_our_rsp_vitae-nc-base-win-rvsa_v3_kvdiff_wsz7_fpn_1x_dior_lr1e-4_ldr75_dpr10.py \
+--launcher 'pytorch' --options 'find_unused_parameters'=True
+```
+
+#### Inference-Detection
+
+Predicting the saving detection map using ViT-B + RVSA $^ \Diamond$ on DOTA-V1.0 scale-scale detection dataset
+
+```
+CUDA_VISIBLE_DEVICES=0 python tools/test.py configs/obb/oriented_rcnn/vit_base_win/faster_rcnn_orpn_our_rsp_vit-base-win-rvsa_v3_kvdiff_wsz7_fpn_1x_dota10_lr1e-4_ldr75_dpr15.py \
+../OBBDetection/work_dirs/faster/faster_rcnn_orpn_our_rsp_vit-base-win-rvsa_v3_kvdiff_wsz7_fpn_1x_dota10_lr1e-4_ldr75_dpr15/latest.pth \
+--format-only --show-dir work_dirs/save/faster/display/faster_rcnn_orpn_our_rsp_vit-base-win-rvsa_v3_kvdiff_wsz7_fpn_1x_dota10_lr1e-4_ldr75_dpr15 \
+--options save_dir='work_dirs/save/faster/full_det/faster_rcnn_orpn_our_rsp_vit-base-win-rvsa_v3_kvdiff_wsz7_fpn_1x_dota10_lr1e-4_ldr75_dpr15' nproc=1
+```
+
+Evaluating the detection maps predicted by ViTAE-B + RVSA on DIOR-R dataset
+
+```
+CUDA_VISIBLE_DEVICES=0 python tools/test.py configs/obb/oriented_rcnn/vit_base_win/faster_rcnn_orpn_our_rsp_vitae-nc-base-win-rvsa_v3_wsz7_fpn_3x_dior_lr1e-4_ldr75_dpr10.py \
+../OBBDetection/work_dirs/faster/faster_rcnn_orpn_our_rsp_vitae-nc-base-win-rvsa_v3_wsz7_fpn_3x_dior_lr1e-4_ldr75_dpr10/latest.pth \
+--out work_dirs/save/faster/full_det/faster_rcnn_orpn_our_rsp_vitae-nc-base-win-rvsa_v3_wsz7_fpn_3x_dior_lr1e-4_ldr75_dpr10/det_result.pkl --eval 'mAP' \
+--show-dir work_dirs/save/faster/display/faster_rcnn_orpn_our_rsp_vitae-nc-base-win-rvsa_v3_wsz7_fpn_3x_dior_lr1e-4_ldr75_dpr10
+```
+
+
 
 
 
