@@ -141,8 +141,6 @@ For convenience, we preserve the relative path for users to find files.
 
 For example, put `./Object Detection/mmdet/models/backbones/vit_win_rvsa_v3_wsz7.py` into `ViTAE-Transformer-Remote-Sensing/mmdet/models/backbones`
 
-*Note: When finetuning with more than one GPU, please use `nn.SyncBatchNorm` in the NormalCell of ViTAE models.*
-
 #### Training-Detection
 
 `cd ./Object Detection` 
@@ -199,6 +197,6 @@ configs/vit_base_win/upernet_vit_base_win_rvsa_v3_512x512_160k_potsdam_rgb_dpr10
 
 *Note: when training on the LoveDA, please add `--no-validate`*
 
-### ***When finetuning with more than 1 GPU for detection or segmentation, please use `nn.SyncBatchNorm` in the NormalCell of ViTAE models.***
+### ***When finetuning with more than one GPU for detection or segmentation, please use `nn.SyncBatchNorm` in the NormalCell of ViTAE models.***
 
 
