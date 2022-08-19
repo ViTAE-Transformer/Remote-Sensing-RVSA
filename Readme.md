@@ -185,7 +185,16 @@ CUDA_VISIBLE_DEVICES=0 python tools/test.py configs/obb/oriented_rcnn/vit_base_w
 --show-dir work_dirs/save/faster/display/faster_rcnn_orpn_our_rsp_vitae-nc-base-win-rvsa_v3_wsz7_fpn_3x_dior_lr1e-4_ldr75_dpr10
 ```
 
+#### Training & Evaluation-Segmentation
 
+Training and evaluation the UperNet with ViT-B + RVSA backbone on Potsdam dataset:
 
+```
+CUDA_VISIBLE_DEVICES=0,1 python -m torch.distributed.launch --nproc_per_node=2 --master_port=30000 tools/train.py \
+configs/vit_base_win/upernet_vit_base_win_rvsa_v3_512x512_160k_potsdam_rgb_dpr10_lr6e5_lrd90_ps16_class5_ignore5.py \
+--launcher 'pytorch' --cfg-options 'find_unused_parameters'=True
+```
+
+*Note: when training on the LoveDA, please add `--no-validate`
 
 
