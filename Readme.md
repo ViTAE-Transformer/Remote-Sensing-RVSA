@@ -195,6 +195,8 @@ configs/vit_base_win/upernet_vit_base_win_rvsa_v3_512x512_160k_potsdam_rgb_dpr10
 --launcher 'pytorch' --cfg-options 'find_unused_parameters'=True
 ```
 
-*Note: when training on the LoveDA, please add `--no-validate`
+*Note: when training on the LoveDA, please add `--no-validate`*
+
+========== When finetuning with more than 1 GPU for detection or segmentation, please use `nn.SyncBatchNorm` in the NormalCell of ViTAE models.========== 
 
 
