@@ -115,8 +115,8 @@ We resort to plain vision transformers with about 100M and make the first attemp
 | ------ | ----------|-------- | --------- | ------- | --- | ------ | --- | ----- |
 | UperNet| MAE | ViT-B + RVSA | 512 × 512 | 160k | 51.95 | Coming Soon | Coming Soon | [Model](https://1drv.ms/u/s!AimBgYV7JjTlggeZZ5N7EbysmsaC?e=rbySyM) |
 | UperNet| MAE | ViT-B + RVSA $^ \Diamond$ | 512 × 512 | 160k | 51.95 | Coming Soon | Coming Soon | [Model](https://1drv.ms/u/s!AimBgYV7JjTlggjO0_gnc2NWohH5?e=mP1wZn) |
-| UperNet| MAE | ViTAE-B + RVSA | 512 × 512 | 160k | 52.26 | Coming Soon | Coming Soon | Coming Soon |
-| UperNet| MAE | ViTAE-B + RVSA $^ \Diamond$ | 512 × 512 | 160k | 52.44 | Coming Soon | Coming Soon | Coming Soon |
+| UperNet| MAE | ViTAE-B + RVSA | 512 × 512 | 160k | 52.26 | Coming Soon | Coming Soon | Onedrive to be continued.. |
+| UperNet| MAE | ViTAE-B + RVSA $^ \Diamond$ | 512 × 512 | 160k | 52.44 | Coming Soon | Coming Soon | Onedrive to be continued.. |
 
 ## Usage
 
