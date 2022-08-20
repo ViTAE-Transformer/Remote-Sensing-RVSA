@@ -54,40 +54,40 @@ We resort to plain vision transformers with about 100M and make the first attemp
 #### DOTA-V1.0 Single-Scale
 | Method | Pretrain | Backbone | Lr schd | mAP | Config | Log | Model |
 | ------ |----------| -------- | --------- | ------- | --- | ------ | --- |
-| Oriented R-CNN | MAE | ViT-B + RVSA | 1x | 78.75 | Coming Soon | Coming Soon | Coming Soon |
-| Oriented R-CNN | MAE | ViT-B + RVSA $^ \Diamond$ | 1x | 78.61 | Coming Soon | Coming Soon | Coming Soon |
-| Oriented R-CNN | MAE | ViTAE-B + RVSA | 1x | 78.96 | Coming Soon | Coming Soon | Coming Soon |
-| Oriented R-CNN | MAE | ViTAE-B + RVSA $^ \Diamond$ | 1x | 78.99 | Coming Soon | Coming Soon | Coming Soon |
+| Oriented R-CNN | MAE | ViT-B + RVSA | 1x | 78.75 | Coming Soon | Coming Soon | [Model](https://1drv.ms/u/s!AimBgYV7JjTlgVIMtyrRiWH-t5YQ?e=BtQes4) |
+| Oriented R-CNN | MAE | ViT-B + RVSA $^ \Diamond$ | 1x | 78.61 | Coming Soon | Coming Soon | [Model](https://1drv.ms/u/s!AimBgYV7JjTlgVOp4xJwWLu6Vuey?e=au4xg7) |
+| Oriented R-CNN | MAE | ViTAE-B + RVSA | 1x | 78.96 | Coming Soon | Coming Soon | [Model](https://1drv.ms/u/s!AimBgYV7JjTlgVDUBGDARsHTpBhW?e=pZ4hjy) |
+| Oriented R-CNN | MAE | ViTAE-B + RVSA $^ \Diamond$ | 1x | 78.99 | Coming Soon | Coming Soon | [Model](https://1drv.ms/u/s!AimBgYV7JjTlgVGWmS_5nylKxSkI?e=nl1EQ0) |
 
 
 #### DOTA-V1.0 Multi-Scale
 | Method | Pretrain | Backbone | Lr schd | mAP | Config | Log | Model |
 | ------ |----------| -------- | --------- | ------- | --- | ------ | --- |
-| Oriented R-CNN | MAE | ViT-B + RVSA | 1x | 81.01 | Coming Soon | Coming Soon | Coming Soon |
-| Oriented R-CNN | MAE | ViT-B + RVSA $^ \Diamond$ | 1x | 80.51 | Coming Soon | Coming Soon | Coming Soon |
-| Oriented R-CNN | MAE | ViTAE-B + RVSA | 1x | 81.16 | Coming Soon | Coming Soon | Coming Soon |
-| Oriented R-CNN | MAE | ViTAE-B + RVSA $^ \Diamond$ | 1x | 80.97 | Coming Soon | Coming Soon | Coming Soon |
+| Oriented R-CNN | MAE | ViT-B + RVSA | 1x | 81.01 | Coming Soon | Coming Soon | [Model](https://1drv.ms/u/s!AimBgYV7JjTlgU5NKaWNgWSou8s1?e=kgucgJ) |
+| Oriented R-CNN | MAE | ViT-B + RVSA $^ \Diamond$ | 1x | 80.51 | Coming Soon | Coming Soon | [Model](https://1drv.ms/u/s!AimBgYV7JjTlgU9TncBm6b9COF73?e=hUK7uk) |
+| Oriented R-CNN | MAE | ViTAE-B + RVSA | 1x | 81.16 | Coming Soon | Coming Soon | [Model](https://1drv.ms/u/s!AimBgYV7JjTlgUwE_gb3u5TriDCd?e=XzInzG) |
+| Oriented R-CNN | MAE | ViTAE-B + RVSA $^ \Diamond$ | 1x | 80.97 | Coming Soon | Coming Soon | [Model](https://1drv.ms/u/s!AimBgYV7JjTlgU3ftuaaqkVmNWWb?e=BjvfdZ) |
 
 #### DIOR-R
 | Method | Pretrain | Backbone | Lr schd | mAP | Config | Log | Model |
 | ------ |----------| -------- | --------- | ------- | --- | ------ | --- |
-| Oriented R-CNN | MAE | ViT-B + RVSA | 1x | 70.67 | Coming Soon | Coming Soon | Coming Soon |
-| Oriented R-CNN | MAE | ViT-B + RVSA $^ \Diamond$ | 1x | 70.85 | Coming Soon | Coming Soon | Coming Soon |
-| Oriented R-CNN | MAE | ViTAE-B + RVSA | 1x | 70.95 | Coming Soon | Coming Soon | Coming Soon |
-| Oriented R-CNN | MAE | ViTAE-B + RVSA $^ \Diamond$ | 1x | 71.05 | Coming Soon | Coming Soon | Coming Soon |
+| Oriented R-CNN | MAE | ViT-B + RVSA | 1x | 70.67 | Coming Soon | Coming Soon | [Model](https://1drv.ms/u/s!AimBgYV7JjTlgUhVXfiflUe0q020?e=VQsxOO) |
+| Oriented R-CNN | MAE | ViT-B + RVSA $^ \Diamond$ | 1x | 70.85 | Coming Soon | Coming Soon | [Model](https://1drv.ms/u/s!AimBgYV7JjTlgUvv90VwP88vuQ3V?e=6R1iI7) |
+| Oriented R-CNN | MAE | ViTAE-B + RVSA | 1x | 70.95 | Coming Soon | Coming Soon | [Model](https://1drv.ms/u/s!AimBgYV7JjTlgUpNYT2Cn3xrgokO?e=OC61c2) |
+| Oriented R-CNN | MAE | ViTAE-B + RVSA $^ \Diamond$ | 1x | 71.05 | Coming Soon | Coming Soon | [Model](https://1drv.ms/u/s!AimBgYV7JjTlgUlLPEW_fYo9Vdxp?e=cAQV4z) |
 
 ### Scene Classification
 
 |Pretrain | Backbone | UCM-55 | AID-28 | AID-55 | NWPU-19 | NWPU-28 |
 |----------|-------- | --------- | ------- | --- | ------ | --- | 
 | MAE | ViT-B + RVSA | 99.70 | 96.92 | 98.33 | 93.79 | 95.49 |
-|     |              |Coming Soon | Coming Soon | Coming Soon | Coming Soon | Coming Soon |
+|     |              |[Model](https://1drv.ms/u/s!AimBgYV7JjTlgWwP9crvFEjxCAms?e=QMiskv) | [Model](https://1drv.ms/u/s!AimBgYV7JjTlgXbTlEZBWwhG3x7E?e=c4fr2m) | [Model](https://1drv.ms/u/s!AimBgYV7JjTlgXsz0bJG9ORHvCdJ?e=dFa9Bh) | [Model](https://1drv.ms/u/s!AimBgYV7JjTlgW9XRLsuNTxT2Uqn?e=VnYbEm) | [Model](https://1drv.ms/u/s!AimBgYV7JjTlgXNlDhN46bvJeN_Q?e=sWuTLd) |
 | MAE | ViT-B + RVSA $^ \Diamond$ | 99.58 | 96.86 | 98.44 | 93.74 | 95.45 |
-|     |              |Coming Soon | Coming Soon | Coming Soon | Coming Soon | Coming Soon |
+|     |              |[Model](https://1drv.ms/u/s!AimBgYV7JjTlgWnLKgu83zX08Kyq?e=YS55iD) | [Model](https://1drv.ms/u/s!AimBgYV7JjTlgXgtdXL2tRuvxcV2?e=jO4tXz) | [Model](https://1drv.ms/u/s!AimBgYV7JjTlgXz0haDLX0XO-Vom?e=cYnD2V) | [Model](https://1drv.ms/u/s!AimBgYV7JjTlgXBSiVQmExNqHQLU?e=RIV3EA) | [Model](https://1drv.ms/u/s!AimBgYV7JjTlgXSMsH12LRpafudZ?e=qYIOn3) |
 | MAE | ViTAE-B + RVSA | 99.56 | 97.03 | 98.48 | 93.93 | 95.69 |
-|     |              |Coming Soon | Coming Soon | Coming Soon | Coming Soon | Coming Soon |
+|     |              |[Model](https://1drv.ms/u/s!AimBgYV7JjTlgWtInpfR-s3kPAlU?e=742yfX) | [Model](https://1drv.ms/u/s!AimBgYV7JjTlgXWi5lX1mmCqBRja?e=UUjvmO) | [Model](https://1drv.ms/u/s!AimBgYV7JjTlgXlt7LwJGVl6d3LX?e=75tDcx) | [Model](https://1drv.ms/u/s!AimBgYV7JjTlgW3Wn2KC2E78NF4m?e=4WHqWB) | [Model](https://1drv.ms/u/s!AimBgYV7JjTlgXKfSfQ75M6N6rYv?e=V8RjAB) |
 | MAE | ViTAE-B + RVSA $^ \Diamond$ | 99.50 | 97.01 | 98.50 | 93.92 | 95.66|
-|     |              |Coming Soon | Coming Soon | Coming Soon | Coming Soon | Coming Soon |
+|     |              |[Model](https://1drv.ms/u/s!AimBgYV7JjTlgWrHaUI-7o71_ZuY?e=Fzh7qK) | [Model](https://1drv.ms/u/s!AimBgYV7JjTlgXeMt9QBpzonQg28?e=9dCHpW) | [Model](https://1drv.ms/u/s!AimBgYV7JjTlgXrUpum6DpMIuPGz?e=2fdo6T) | [Model](https://1drv.ms/u/s!AimBgYV7JjTlgW5VYQS7oCao3fNE?e=agatZi) | [Model](https://1drv.ms/u/s!AimBgYV7JjTlgXFaCj5vyTHBUXzP?e=ZgYZLj) |
 
 ### Semantic Segmentation
 
@@ -95,26 +95,26 @@ We resort to plain vision transformers with about 100M and make the first attemp
 
 | Method | Pretrain | Backbone | Crop size | Lr schd | OA | Config | Log | Model |
 | ------ | ----------|-------- | --------- | ------- | --- | ------ | --- | ----- |
-| UperNet| MAE | ViT-B + RVSA | 512 × 512 | 160k | 90.60 | Coming Soon | Coming Soon | Coming Soon |
-| UperNet| MAE | ViT-B + RVSA $^ \Diamond$ | 512 × 512 | 160k | 90.77 | Coming Soon | Coming Soon | Coming Soon |
-| UperNet| MAE | ViTAE-B + RVSA | 512 × 512 | 160k | 91.22 | Coming Soon | Coming Soon | Coming Soon |
-| UperNet| MAE | ViTAE-B + RVSA $^ \Diamond$ | 512 × 512 | 160k | 91.15 | Coming Soon | Coming Soon | Coming Soon |
+| UperNet| MAE | ViT-B + RVSA | 512 × 512 | 160k | 90.60 | Coming Soon | Coming Soon | [Model](https://1drv.ms/u/s!AimBgYV7JjTlggtgZIOaF6fVKvxq?e=bJ1dCL) |
+| UperNet| MAE | ViT-B + RVSA $^ \Diamond$ | 512 × 512 | 160k | 90.77 | Coming Soon | Coming Soon | [Model](https://1drv.ms/u/s!AimBgYV7JjTlggxCsqnFeUKfLNGX?e=DwntaA) |
+| UperNet| MAE | ViTAE-B + RVSA | 512 × 512 | 160k | 91.22 | Coming Soon | Coming Soon | [Model](https://1drv.ms/u/s!AimBgYV7JjTlggnb0VyF9Lf37-X7?e=8hYtSS) |
+| UperNet| MAE | ViTAE-B + RVSA $^ \Diamond$ | 512 × 512 | 160k | 91.15 | Coming Soon | Coming Soon | [Model](https://1drv.ms/u/s!AimBgYV7JjTlggo-6wH5O3P9CbNQ?e=AGKQCj) |
 
 #### iSAID
 
 | Method | Pretrain | Backbone | Crop size | Lr schd | mIOU | Config | Log | Model |
 | ------ | ----------|-------- | --------- | ------- | --- | ------ | --- | ----- |
-| UperNet| MAE | ViT-B + RVSA | 896 × 896 | 160k | 63.76 | Coming Soon | Coming Soon | Coming Soon |
-| UperNet| MAE | ViT-B + RVSA $^ \Diamond$ | 896 × 896 | 160k | 63.85 | Coming Soon | Coming Soon | Coming Soon |
-| UperNet| MAE | ViTAE-B + RVSA | 896 × 896 | 160k | 63.48 | Coming Soon | Coming Soon | Coming Soon |
-| UperNet| MAE | ViTAE-B + RVSA $^ \Diamond$ | 896 × 896 | 160k | 64.49 | Coming Soon | Coming Soon | Coming Soon |
+| UperNet| MAE | ViT-B + RVSA | 896 × 896 | 160k | 63.76 | Coming Soon | Coming Soon | [Model](https://1drv.ms/u/s!AimBgYV7JjTlggEDf2JWqXWnS7XS?e=dJU1os) |
+| UperNet| MAE | ViT-B + RVSA $^ \Diamond$ | 896 × 896 | 160k | 63.85 | Coming Soon | Coming Soon | [Model](https://1drv.ms/u/s!AimBgYV7JjTlggSJm0qt7gLysKcA?e=JlqOM6) |
+| UperNet| MAE | ViTAE-B + RVSA | 896 × 896 | 160k | 63.48 | Coming Soon | Coming Soon | [Model](https://1drv.ms/u/s!AimBgYV7JjTlggKoccMgQD6wCHRk?e=uDM4X3) |
+| UperNet| MAE | ViTAE-B + RVSA $^ \Diamond$ | 896 × 896 | 160k | 64.49 | Coming Soon | Coming Soon | [Model](https://1drv.ms/u/s!AimBgYV7JjTlggPs9ZRQxrv8yhWf?e=syTQB5) |
 
 #### LoveDA
 
 | Method | Pretrain | Backbone | Crop size | Lr schd | mIOU | Config | Log | Model |
 | ------ | ----------|-------- | --------- | ------- | --- | ------ | --- | ----- |
-| UperNet| MAE | ViT-B + RVSA | 512 × 512 | 160k | 51.95 | Coming Soon | Coming Soon | Coming Soon |
-| UperNet| MAE | ViT-B + RVSA $^ \Diamond$ | 512 × 512 | 160k | 51.95 | Coming Soon | Coming Soon | Coming Soon |
+| UperNet| MAE | ViT-B + RVSA | 512 × 512 | 160k | 51.95 | Coming Soon | Coming Soon | [Model](https://1drv.ms/u/s!AimBgYV7JjTlggeZZ5N7EbysmsaC?e=rbySyM) |
+| UperNet| MAE | ViT-B + RVSA $^ \Diamond$ | 512 × 512 | 160k | 51.95 | Coming Soon | Coming Soon | [Model](https://1drv.ms/u/s!AimBgYV7JjTlggjO0_gnc2NWohH5?e=mP1wZn) |
 | UperNet| MAE | ViTAE-B + RVSA | 512 × 512 | 160k | 52.26 | Coming Soon | Coming Soon | Coming Soon |
 | UperNet| MAE | ViTAE-B + RVSA $^ \Diamond$ | 512 × 512 | 160k | 52.44 | Coming Soon | Coming Soon | Coming Soon |
 
