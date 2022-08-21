@@ -46,8 +46,8 @@ We resort to plain vision transformers with about 100M and make the first attemp
 #### MillionAID
 |Pretrain|Backbone | Input size | Params (M) | Pretrained model|
 |-------|-------- | ----------  | ----- | ----- |
-| MAE | ViT-B | 224 × 224 | 86| Coming Soon |
-| MAE | ViTAE-B | 224 × 224 | 89 | Coming Soon |
+| MAE | ViT-B | 224 × 224 | 86| [Weights](https://1drv.ms/u/s!AimBgYV7JjTlgUNdvp0ulEweChb1?e=PUzFdU) |
+| MAE | ViTAE-B | 224 × 224 | 89 | [Weights](https://1drv.ms/u/s!AimBgYV7JjTlgULC9Nz0-DVU-g3x?e=0uzlOs) |
 
 ### Object Detection
 
@@ -115,8 +115,8 @@ We resort to plain vision transformers with about 100M and make the first attemp
 | ------ | ----------|-------- | --------- | ------- | --- | ------ | --- | ----- |
 | UperNet| MAE | ViT-B + RVSA | 512 × 512 | 160k | 51.95 | Coming Soon | Coming Soon | [Model](https://1drv.ms/u/s!AimBgYV7JjTlggeZZ5N7EbysmsaC?e=rbySyM) |
 | UperNet| MAE | ViT-B + RVSA $^ \Diamond$ | 512 × 512 | 160k | 51.95 | Coming Soon | Coming Soon | [Model](https://1drv.ms/u/s!AimBgYV7JjTlggjO0_gnc2NWohH5?e=mP1wZn) |
-| UperNet| MAE | ViTAE-B + RVSA | 512 × 512 | 160k | 52.26 | Coming Soon | Coming Soon | Onedrive to be continued.. |
-| UperNet| MAE | ViTAE-B + RVSA $^ \Diamond$ | 512 × 512 | 160k | 52.44 | Coming Soon | Coming Soon | Onedrive to be continued.. |
+| UperNet| MAE | ViTAE-B + RVSA | 512 × 512 | 160k | 52.26 | Coming Soon | Coming Soon | [Model](https://1drv.ms/u/s!AimBgYV7JjTlggVUiZz9skipmE4T?e=IhEuyT) |
+| UperNet| MAE | ViTAE-B + RVSA $^ \Diamond$ | 512 × 512 | 160k | 52.44 | Coming Soon | Coming Soon | [Model](https://1drv.ms/u/s!AimBgYV7JjTlggYopXNjfWfa89Pz?e=RYxFkM) |
 
 ## Usage
 
