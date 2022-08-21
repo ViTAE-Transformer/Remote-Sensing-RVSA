@@ -167,7 +167,7 @@ CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node 1 --m
 
 #### Finetuning evaluation for pretraining & Finetuning-Classification
 
-Finetuning ViTAE-B + RVSA on NWPU-28
+For instance, finetuning ViTAE-B + RVSA on NWPU-28
 
 ```
 CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node 1 --master_port 20000 main_finetune.py \
