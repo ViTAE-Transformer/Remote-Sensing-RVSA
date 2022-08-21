@@ -129,7 +129,7 @@ To be continued。。
 Since we use OBBDetection and MMSegmenation to implement corresponding detection or segmentation models, we only provide necessary config and backbone files. The main frameworks are both in [ViTAE-Transformer-Remote-Sensing](https://github.com/ViTAE-Transformer/ViTAE-Transformer-Remote-Sensing)
 
 ```
-https://github.com/ViTAE-Transformer/ViTAE-Transformer-Remote-Sensing.git
+git clone https://github.com/ViTAE-Transformer/ViTAE-Transformer-Remote-Sensing.git
 ```
 
 The installation and dataset preparation can separately refer [OBBDetection-installation](https://github.com/jbwang1997/OBBDetection/blob/master/docs/install.md) and 
@@ -143,7 +143,7 @@ For example, put `./Object Detection/mmdet/models/backbones/vit_win_rvsa_v3_wsz7
 
 #### Training-Detection
 
-`cd ./Object Detection` 
+First, `cd ./Object Detection` 
 
 Then, we provide several examples. For instance, 
 
@@ -186,6 +186,8 @@ CUDA_VISIBLE_DEVICES=0 python tools/test.py configs/obb/oriented_rcnn/vit_base_w
 *Note: the pathes of saved maps and outputs should be constructed before evaluating the DIOR-R testing set.*
 
 #### Training & Evaluation-Segmentation
+
+`cd ./Semantic Segmentation` 
 
 Training and evaluation the UperNet with ViT-B + RVSA backbone on Potsdam dataset:
 
