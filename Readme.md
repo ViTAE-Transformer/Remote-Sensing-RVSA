@@ -129,7 +129,7 @@ To be continued。。
 Since we use OBBDetection and MMSegmenation to implement corresponding detection or segmentation models, we only provide necessary config and backbone files. The main frameworks are both in [ViTAE-Transformer-Remote-Sensing](https://github.com/ViTAE-Transformer/ViTAE-Transformer-Remote-Sensing)
 
 ```
-git clone https://github.com/DotWang/Remote-Sensing-Pretraining.git
+https://github.com/ViTAE-Transformer/ViTAE-Transformer-Remote-Sensing.git
 ```
 
 The installation and dataset preparation can separately refer [OBBDetection-installation](https://github.com/jbwang1997/OBBDetection/blob/master/docs/install.md) and 
