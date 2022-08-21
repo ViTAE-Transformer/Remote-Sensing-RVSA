@@ -48,6 +48,14 @@ We resort to plain vision transformers with about 100M and make the first attemp
 
 ## Results and Models
 
+Environment:
+
+- Python 3.8.5
+- Pytorch 1.9.0+cu111
+- torchvision 0.10.0+cu111
+- timm 0.4.12
+- mmcv-full 1.4.1
+
 ### Pretraining 
 
 #### MillionAID
