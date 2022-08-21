@@ -153,7 +153,7 @@ python -m torch.distributed.launch --nproc_per_node 8 --master_port 10000 main_p
 --blr 1.5e-4  --weight_decay 0.05 --gpu_num 8 \
 --output_dir '../mae-main/output/'
 ```
-*Note: Padding the convolutional kernel of PCM with `convertK1toK3.py` in the pretrained ViTAE-B for finetuning.*
+*Note: Padding the convolutional kernel of PCM in the pretrained ViTAE-B with `convertK1toK3.py` for finetuning.*
 
 3. Linear probe: an example of evaluating the pretrained ViT-B on UCM-55
 
