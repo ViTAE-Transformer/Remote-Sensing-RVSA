@@ -137,10 +137,45 @@ Environment:
 
 ### Pretraining & Finetuning-Classification
 
+The codes are mainly borrowed from [MAE](https://github.com/facebookresearch/mae)
+
 #### Pretraining (8 × A100 GPUs, 3~5 days)
 
 1. Preparing the MillionAID: Download the [MillionAID](https://captain-whu.github.io/DiRS/). Here, we use previous `train_labels.txt` and `valid_labels.txt` of the [ViTAE-Transformer-Remote-Sensing](https://github.com/ViTAE-Transformer/ViTAE-Transformer-Remote-Sensing), which contain labels. However, since we conduct the **unsupervised pretraining**, the labels are not necessary. It is easy for users to record image names and revise corresponding codes `MAEPretrain_SceneClassification/util/datasets.py/class MillionAIDDataset`.
-2. Training: To be continued.
+
+2. Pretraining: take ViT-B as an example (batchsize: 2048=8*256)
+
+```
+python -m torch.distributed.launch --nproc_per_node 8 --master_port 10000 main_pretrain.py \
+--dataset 'millionAID' --model 'mae_vit_base_patch16' \
+--batch_size 256 --epochs 1600 --warmup_epochs 40 \
+--input_size 224 --mask_ratio 0.75 \
+--blr 1.5e-4  --weight_decay 0.05 --gpu_num 8 \
+--output_dir '../mae-main/output/'
+```
+*Note: Padding the convolutional kernel of PCM with `convertK1toK3.py`** in the pretrained ViTAE-B for finetuning.*
+
+3. Linear probe: an example of evaluating the pretrained ViT-B on UCM-55
+
+```
+CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node 1 --master_port 10000 main_linprobe.py \
+--dataset 'ucm' --model 'vit_base_patch16' \
+--batch_size 256 --epochs 100 --warmup_epochs 10 \
+--blr 1e-1  --weight_decay 0 --tag 0 \
+--finetune '../mae-main/output/millionAID_224/1600_0.75_0.00015_0.05_2048/checkpoint-1599.pth'
+```
+
+#### Finetuning evaluation for pretraining & Finetuning-Classification
+
+Finetuning ViTAE-B + RVSA on NWPU-28
+
+```
+CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node 1 --master_port 20000 main_finetune.py \
+--dataset 'nwpu' --model 'vitae_nc_base_win_rvsa' --input_size 224 --postfix 'sota' \
+--batch_size 64 --epochs 200 --warmup_epochs 5 \
+--blr 1e-3  --weight_decay 0.05 --split 28 --tag 0 --exp_num 1 \
+--finetune '../mae-main/output/mae_vitae_base_pretrn/millionAID_224/1600_0.75_0.00015_0.05_2048/checkpoint-1599-transform-no-average.pth'
+```
 
 ### Finetuning-Detection & Finetuning-Segmentation
 
