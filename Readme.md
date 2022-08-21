@@ -137,7 +137,9 @@ Environment:
 
 ### Pretraining & Finetuning-Classification
 
-To be continued。。
+#### Pretraining (8 × A100 GPUs, 3~5 days)
+
+1. Preparing the MillionAID: Download the [MillionAID](https://captain-whu.github.io/DiRS/). Here, we use previous `train_labels.txt`
 
 ### Finetuning-Detection & Finetuning-Segmentation
 
