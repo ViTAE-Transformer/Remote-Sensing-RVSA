@@ -15,6 +15,13 @@
 <a href="https://arxiv.org/abs/2208.03987"><img src="https://img.shields.io/badge/arXiv-Paper-<color>"></a>
 </p>
 
+<p align="center">
+  <a href="#updates">Updates</a> |
+  <a href="#introduction">Introduction</a> |
+  <a href="#results-and-models">Results & Models</a> |
+  <a href="#usage">Usage</a> |
+</p >
+
 ## Current applications
 
 > **ViTAE: Please see [ViTAE-Transformer](https://github.com/ViTAE-Transformer/ViTAE-Transformer)**;
