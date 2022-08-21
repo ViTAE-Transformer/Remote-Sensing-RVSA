@@ -48,14 +48,6 @@ We resort to plain vision transformers with about 100M and make the first attemp
 
 ## Results and Models
 
-Environment:
-
-- Python 3.8.5
-- Pytorch 1.9.0+cu111
-- torchvision 0.10.0+cu111
-- timm 0.4.12
-- mmcv-full 1.4.1
-
 ### Pretraining 
 
 #### MillionAID
@@ -134,6 +126,14 @@ Environment:
 | UperNet| MAE | ViTAE-B + RVSA $^ \Diamond$ | 512 × 512 | 160k | 52.44 | Coming Soon | Coming Soon | [Model](https://1drv.ms/u/s!AimBgYV7JjTlggYopXNjfWfa89Pz?e=RYxFkM) |
 
 ## Usage
+
+Environment:
+
+- Python 3.8.5
+- Pytorch 1.9.0+cu111
+- torchvision 0.10.0+cu111
+- timm 0.4.12
+- mmcv-full 1.4.1
 
 ### Pretraining & Finetuning-Classification
 
