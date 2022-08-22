@@ -230,10 +230,10 @@ CUDA_VISIBLE_DEVICES=0 python tools/test.py configs/obb/oriented_rcnn/vit_base_w
 Evaluating the detection maps predicted by ViTAE-B + RVSA on DIOR-R dataset
 
 ```
-CUDA_VISIBLE_DEVICES=0 python tools/test.py configs/obb/oriented_rcnn/vit_base_win/faster_rcnn_orpn_our_rsp_vitae-nc-base-win-rvsa_v3_wsz7_fpn_3x_dior_lr1e-4_ldr75_dpr10.py \
-../OBBDetection/work_dirs/faster/faster_rcnn_orpn_our_rsp_vitae-nc-base-win-rvsa_v3_wsz7_fpn_3x_dior_lr1e-4_ldr75_dpr10/latest.pth \
---out work_dirs/save/faster/full_det/faster_rcnn_orpn_our_rsp_vitae-nc-base-win-rvsa_v3_wsz7_fpn_3x_dior_lr1e-4_ldr75_dpr10/det_result.pkl --eval 'mAP' \
---show-dir work_dirs/save/faster/display/faster_rcnn_orpn_our_rsp_vitae-nc-base-win-rvsa_v3_wsz7_fpn_3x_dior_lr1e-4_ldr75_dpr10
+CUDA_VISIBLE_DEVICES=0 python tools/test.py configs/obb/oriented_rcnn/vit_base_win/faster_rcnn_orpn_our_rsp_vitae-nc-base-win-rvsa_v3_wsz7_fpn_1x_dior_lr1e-4_ldr75_dpr10.py \
+../OBBDetection/work_dirs/faster/faster_rcnn_orpn_our_rsp_vitae-nc-base-win-rvsa_v3_wsz7_fpn_1x_dior_lr1e-4_ldr75_dpr10/latest.pth \
+--out work_dirs/save/faster/full_det/faster_rcnn_orpn_our_rsp_vitae-nc-base-win-rvsa_v3_wsz7_fpn_1x_dior_lr1e-4_ldr75_dpr10/det_result.pkl --eval 'mAP' \
+--show-dir work_dirs/save/faster/display/faster_rcnn_orpn_our_rsp_vitae-nc-base-win-rvsa_v3_wsz7_fpn_1x_dior_lr1e-4_ldr75_dpr10
 ```
 
 *Note: the pathes of saved maps and outputs should be constructed before evaluating the DIOR-R testing set.*
