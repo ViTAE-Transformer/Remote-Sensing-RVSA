@@ -192,7 +192,7 @@ Then put these files into corresponding folders.
 
 For convenience, we preserve the relative path for users to find files.
 
-For example, put `./Object Detection/mmdet/models/backbones/vit_win_rvsa_v3_wsz7.py` into `ViTAE-Transformer-Remote-Sensing/mmdet/models/backbones`
+For example, put `./Object Detection/mmdet/models/backbones/vit_win_rvsa_v3_wsz7.py` into `ViTAE-Transformer-Remote-Sensing/Object Detection/mmdet/models/backbones`
 
 #### Training-Detection
 
