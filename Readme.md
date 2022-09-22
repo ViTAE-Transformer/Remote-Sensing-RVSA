@@ -32,6 +32,9 @@
 
 > **Remote Sensing Pretraining: Please see [ViTAE-Transformer-Remote-Sensing](https://github.com/ViTAE-Transformer/ViTAE-Transformer-Remote-Sensing)**;
 
+## Updates
+
+#### 2022.09.19 The codes and training logs of the [VSA](https://github.com/ViTAE-Transformer/ViTAE-VSA) have been released, which is the foundation of our RVSA.
 
 ## Introduction
 
