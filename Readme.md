@@ -34,9 +34,13 @@
 
 ## Updates
 
-### 2022.10.09 The codes, configs and training logs of detection in fintuning are released!
+### 2022.10.09 
 
-### 2022.10.08 The codes of pretraining and classification in fintuning are released!
+The codes, configs and training logs of detection in fintuning are released!
+
+### 2022.10.08 
+
+The codes of pretraining and classification in fintuning are released!
 
 ### 2022.09.19 
 
@@ -79,10 +83,10 @@ We resort to plain vision transformers with about 100M and make the first attemp
 #### DOTA-V1.0 Multi-Scale
 | Method | Pretrain | Backbone | Lr schd | mAP | Config | Log | Model |
 | ------ |----------| -------- | --------- | ------- | --- | ------ | --- |
-| Oriented R-CNN | MAE | ViT-B + RVSA | 1x | 81.01 | [Config](https://github.com/ViTAE-Transformer/Remote-Sensing-RVSA/blob/main/Object%20Detection/configs/obb/oriented_rcnn/vit_base_win/faster_rcnn_orpn_our_rsp_vit-base-win-rvsa_v3_wsz7_fpn_1x_dota10_ms_lr1e-4_ldr75_dpr15.py) | [Log](https://github.com/ViTAE-Transformer/Remote-Sensing-RVSA/blob/main/Object%20Detection/logs/faster_rcnn_orpn_our_rsp_vit-base-win-rvsa_v3_wsz7_fpn_1x_dota10_ms_lr1e-4_ldr75_dpr15.log)| [Model](https://1drv.ms/u/s!AimBgYV7JjTlgU5NKaWNgWSou8s1?e=kgucgJ) |
-| Oriented R-CNN | MAE | ViT-B + RVSA $^ \Diamond$ | 1x | 80.80 | [Config](https://github.com/ViTAE-Transformer/Remote-Sensing-RVSA/blob/main/Object%20Detection/configs/obb/oriented_rcnn/vit_base_win/faster_rcnn_orpn_our_rsp_vit-base-win-rvsa_v3_kvdiff_wsz7_fpn_1x_dota10_ms_lr1e-4_ldr75_dpr15.py) | [Log](https://github.com/ViTAE-Transformer/Remote-Sensing-RVSA/blob/main/Object%20Detection/logs/faster_rcnn_orpn_our_rsp_vit-base-win-rvsa_v3_kvdiff_wsz7_fpn_1x_dota10_ms_lr1e-4_ldr75_dpr15.log) | [Model](https://1drv.ms/u/s!AimBgYV7JjTlgU9TncBm6b9COF73?e=hUK7uk) |
-| Oriented R-CNN | MAE | ViTAE-B + RVSA | 1x | 81.24 | [Config](https://github.com/ViTAE-Transformer/Remote-Sensing-RVSA/blob/main/Object%20Detection/configs/obb/oriented_rcnn/vit_base_win/faster_rcnn_orpn_our_rsp_vitae-nc-base-win-rvsa_v3_wsz7_fpn_1x_dota10_ms_lr1e-4_ldr75_dpr15.py) | [Log](https://github.com/ViTAE-Transformer/Remote-Sensing-RVSA/blob/main/Object%20Detection/logs/faster_rcnn_orpn_our_rsp_vitae-nc-base-win-rvsa_v3_wsz7_fpn_1x_dota10_ms_lr1e-4_ldr75_dpr15.log) |  [Model](https://1drv.ms/u/s!AimBgYV7JjTlgUwE_gb3u5TriDCd?e=XzInzG) |
-| Oriented R-CNN | MAE | ViTAE-B + RVSA $^ \Diamond$ | 1x | 81.18 | [Config](https://github.com/ViTAE-Transformer/Remote-Sensing-RVSA/blob/main/Object%20Detection/configs/obb/oriented_rcnn/vit_base_win/faster_rcnn_orpn_our_rsp_vitae-nc-base-win-rvsa_v3_kvdiff_wsz7_fpn_1x_dota10_ms_lr1e-4_ldr75_dpr15.py) | [Log](https://github.com/ViTAE-Transformer/Remote-Sensing-RVSA/blob/main/Object%20Detection/logs/faster_rcnn_orpn_our_rsp_vitae-nc-base-win-rvsa_v3_kvdiff_wsz7_fpn_1x_dota10_ms_lr1e-4_ldr75_dpr15.log) | [Model](https://1drv.ms/u/s!AimBgYV7JjTlgU1lY5Nw_Zn0PYFg?e=JsfnRk) |
+| Oriented R-CNN | MAE | ViT-B + RVSA | 1x | 81.01 | [Config](https://github.com/ViTAE-Transformer/Remote-Sensing-RVSA/blob/main/Object%20Detection/configs/obb/oriented_rcnn/vit_base_win/faster_rcnn_orpn_our_rsp_vit-base-win-rvsa_v3_wsz7_fpn_1x_dota10_ms_lr1e-4_ldr75_dpr15.py) | [Log](https://github.com/ViTAE-Transformer/Remote-Sensing-RVSA/blob/main/Object%20Detection/logs/faster_rcnn_orpn_our_rsp_vit-base-win-rvsa_v3_wsz7_fpn_1x_dota10_ms_lr1e-4_ldr75_dpr15.log)| [Model](https://1drv.ms/u/s!AimBgYV7JjTlgU7JaG4umIZe4U-C?e=dhEL91) |
+| Oriented R-CNN | MAE | ViT-B + RVSA $^ \Diamond$ | 1x | 80.80 | [Config](https://github.com/ViTAE-Transformer/Remote-Sensing-RVSA/blob/main/Object%20Detection/configs/obb/oriented_rcnn/vit_base_win/faster_rcnn_orpn_our_rsp_vit-base-win-rvsa_v3_kvdiff_wsz7_fpn_1x_dota10_ms_lr1e-4_ldr75_dpr15.py) | [Log](https://github.com/ViTAE-Transformer/Remote-Sensing-RVSA/blob/main/Object%20Detection/logs/faster_rcnn_orpn_our_rsp_vit-base-win-rvsa_v3_kvdiff_wsz7_fpn_1x_dota10_ms_lr1e-4_ldr75_dpr15.log) | [Model](https://1drv.ms/u/s!AimBgYV7JjTlgccAEbZKhILcLwebYQ?e=JZEoww) |
+| Oriented R-CNN | MAE | ViTAE-B + RVSA | 1x | 81.24 | [Config](https://github.com/ViTAE-Transformer/Remote-Sensing-RVSA/blob/main/Object%20Detection/configs/obb/oriented_rcnn/vit_base_win/faster_rcnn_orpn_our_rsp_vitae-nc-base-win-rvsa_v3_wsz7_fpn_1x_dota10_ms_lr1e-4_ldr75_dpr15.py) | [Log](https://github.com/ViTAE-Transformer/Remote-Sensing-RVSA/blob/main/Object%20Detection/logs/faster_rcnn_orpn_our_rsp_vitae-nc-base-win-rvsa_v3_wsz7_fpn_1x_dota10_ms_lr1e-4_ldr75_dpr15.log) |  [Model](https://1drv.ms/u/s!AimBgYV7JjTlgccBZosdUr17ns1P3g?e=viIosd) |
+| Oriented R-CNN | MAE | ViTAE-B + RVSA $^ \Diamond$ | 1x | 81.18 | [Config](https://github.com/ViTAE-Transformer/Remote-Sensing-RVSA/blob/main/Object%20Detection/configs/obb/oriented_rcnn/vit_base_win/faster_rcnn_orpn_our_rsp_vitae-nc-base-win-rvsa_v3_kvdiff_wsz7_fpn_1x_dota10_ms_lr1e-4_ldr75_dpr15.py) | [Log](https://github.com/ViTAE-Transformer/Remote-Sensing-RVSA/blob/main/Object%20Detection/logs/faster_rcnn_orpn_our_rsp_vitae-nc-base-win-rvsa_v3_kvdiff_wsz7_fpn_1x_dota10_ms_lr1e-4_ldr75_dpr15.log) | [Model](https://1drv.ms/u/s!AimBgYV7JjTlgccCpwc70qHmf-Figw?e=ZyBae3) |
 
 #### DIOR-R
 | Method | Pretrain | Backbone | Lr schd | mAP | Config | Log | Model |
