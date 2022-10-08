@@ -34,6 +34,10 @@
 
 ## Updates
 
+### 2022.10.09 The codes, configs and training logs of detection in fintuning are released!
+
+### 2022.10.08 The codes of pretraining and classification in fintuning are released!
+
 ### 2022.09.19 
 
 The codes and training logs of the [VSA](https://github.com/ViTAE-Transformer/ViTAE-VSA) have been released, which is the foundation of our RVSA.
