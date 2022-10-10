@@ -34,6 +34,10 @@
 
 ## Updates
 
+### 2022.10.11 
+
+The codes, configs and training logs of segmentation in fintuning are released!
+
 ### 2022.10.09 
 
 The codes, configs and training logs of detection in fintuning are released!
@@ -264,6 +268,15 @@ configs/vit_base_win/upernet_vit_base_win_rvsa_v3_512x512_160k_potsdam_rgb_dpr10
 ```
 
 *Note: when training on the LoveDA, please add `--no-validate`*
+
+Inference the LoveDA dataset for online evaluation using the UperNet with ViT-B + RVSA $^ \Diamond$ backbone
+
+```
+CUDA_VISIBLE_DEVICES=0 python tools/test.py configs/vit_base_win/upernet_vitae_nc_base_rvsa_v3_kvdiff_wsz7_512x512_160k_loveda_dpr10_lr6e5_lrd90_ps16.py \
+../mmsegmentation-master/work_dirs/upernet_vitae_nc_base_rvsa_v3_kvdiff_wsz7_512x512_160k_loveda_dpr10_lr6e5_lrd90_ps16/latest.pth \
+--format-only --eval-options imgfile_prefix="work_dirs/display/upernet_vitae_nc_base_rvsa_v3_kvdiff_wsz7_512x512_160k_loveda_dpr10_lr6e5_lrd90_ps16/result" \
+--show-dir work_dirs/display/upernet_vitae_nc_base_rvsa_v3_kvdiff_wsz7_512x512_160k_loveda_dpr10_lr6e5_lrd90_ps16/rgb
+```
 
 ### ***When finetuning with more than one GPU for detection or segmentation, please use `nn.SyncBatchNorm` in the NormalCell of ViTAE models.***
 
