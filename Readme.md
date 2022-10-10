@@ -280,16 +280,6 @@ CUDA_VISIBLE_DEVICES=0 python tools/test.py configs/vit_base_win/upernet_vitae_n
 
 ### ***When finetuning with more than one GPU for detection or segmentation, please use `nn.SyncBatchNorm` in the NormalCell of ViTAE models.***
 
-## Current applications
-
-> **ViTAE: Please see [ViTAE-Transformer](https://github.com/ViTAE-Transformer/ViTAE-Transformer)**;
-
-> **VSA: Please see [ViTAE-VSA](https://github.com/ViTAE-Transformer/ViTAE-VSA)**;
-
-> **Matting: Please see [ViTAE-Transformer for matting](https://github.com/ViTAE-Transformer/ViTAE-Transformer-Matting)**;
-
-> **Remote Sensing Pretraining: Please see [ViTAE-Transformer-Remote-Sensing](https://github.com/ViTAE-Transformer/ViTAE-Transformer-Remote-Sensing)**;
-
 ## Statement
 
 This project is for research purpose only. For any other questions please contact [di.wang at gmail.com](mailto:wd74108520@gmail.com) .
