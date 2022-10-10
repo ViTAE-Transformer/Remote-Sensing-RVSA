@@ -296,6 +296,6 @@ This project is for research purpose only. For any other questions please contac
 
 ## References
 
-The codes of Pretraining & Recognition part mainly from [MAE](https://github.com/facebookresearch/mae).
+The codes of Pretraining & Scene Classification part mainly from [MAE](https://github.com/facebookresearch/mae).
 
 
