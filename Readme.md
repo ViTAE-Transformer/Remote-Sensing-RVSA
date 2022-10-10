@@ -269,7 +269,7 @@ configs/vit_base_win/upernet_vit_base_win_rvsa_v3_512x512_160k_potsdam_rgb_dpr10
 
 *Note: when training on the LoveDA, please add `--no-validate`*
 
-Inference the LoveDA dataset for online evaluation using the UperNet with ViT-B + RVSA $^ \Diamond$ backbone
+Inference the LoveDA dataset for online evaluation using the UperNet with ViTAE-B + RVSA $^ \Diamond$ backbone
 
 ```
 CUDA_VISIBLE_DEVICES=0 python tools/test.py configs/vit_base_win/upernet_vitae_nc_base_rvsa_v3_kvdiff_wsz7_512x512_160k_loveda_dpr10_lr6e5_lrd90_ps16.py \
