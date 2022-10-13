@@ -280,6 +280,19 @@ CUDA_VISIBLE_DEVICES=0 python tools/test.py configs/vit_base_win/upernet_vitae_n
 
 ### ***When finetuning with more than one GPU for detection or segmentation, please use `nn.SyncBatchNorm` in the NormalCell of ViTAE models.***
 
+## Citation
+
+If this repo is useful for your research, please consider citation
+
+```
+@article{wang2022advancing,
+  title={Advancing Plain Vision Transformer Towards Remote Sensing Foundation Model},
+  author={Wang, Di and Zhang, Qiming and Xu, Yufei and Zhang, Jing and Du, Bo and Tao, Dacheng and Zhang, Liangpei},
+  journal={arXiv preprint arXiv:2208.03987},
+  year={2022}
+}
+```
+
 ## Statement
 
 This project is for research purpose only. For any other questions please contact [di.wang at gmail.com](mailto:wd74108520@gmail.com) .
