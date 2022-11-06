@@ -34,6 +34,10 @@
 
 ## Updates
 
+### 2022.11.06
+
+The paper has been accepted by IEEE TGRS.
+
 ### 2022.10.11 
 
 The codes, configs and training logs of segmentation in fintuning are released!
