@@ -69,6 +69,8 @@ We resort to plain vision transformers with about 100M and make the first attemp
 <figcaption align = "center"><b>Fig.1 - The pipeline of pretraining and finetuning. </b></figcaption>
 </figure>
 
+&emsp;
+
 <figure>
 <img src=Figs/vit_rvsa.png>
 <figcaption align = "center"><b>Fig.2 - The structure and block of the adopted plain vision transformer, and the proposed RVSA. </b></figcaption>
