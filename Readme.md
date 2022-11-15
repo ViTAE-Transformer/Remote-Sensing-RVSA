@@ -65,24 +65,15 @@ This repository contains codes, models and test results for the paper "[Advancin
 We resort to plain vision transformers with about 100M and make the first attempt to propose large vision models customized for RS tasks and propose a new rotated varied-size window attention (RVSA) to substitute the original full attention to handle the large image size and objects of various orientations in RS images. The RVSA could significantly reduce the computational cost and memory footprint while learn better object representation by extracting rich context from the generated diverse windows.
 
 <figure>
-<div align="center">
-<img src=Figs/framework.png width="90%">
-</div>
-
-
+<img src=Figs/framework.png>
 <figcaption align = "center"><b>Fig.1 - The pipeline of pretraining and finetuning. </b></figcaption>
 </figure>
 
-\\
-
 <figure>
-<div align="center">
-<img src=Figs/vit_rvsa.png width="90%">
-</div>
-
-
+<img src=Figs/vit_rvsa.png>
 <figcaption align = "center"><b>Fig.2 - The structure and block of the adopted plain vision transformer, and the proposed RVSA. </b></figcaption>
 </figure>
+
 
 ## Results and Models
 
