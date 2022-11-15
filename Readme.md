@@ -34,9 +34,13 @@
 
 ## Updates
 
+### 2022.11.15
+
+The arXiv has been updated!
+
 ### 2022.11.06
 
-The paper has been accepted by IEEE TGRS.
+The paper has been accepted by IEEE TGRS!
 
 ### 2022.10.11 
 
