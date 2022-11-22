@@ -1,4 +1,5 @@
-# Advancing Plain Vision Transformer Towards Remote Sensing Foundation Model
+# Advancing Plain Vision Transformer Towards Remote Sensing Foundation Model 
+### Di Wang, Qiming Zhang, Yufei Xu, Jing Zhang, Bo Du, Dacheng Tao and Liangpei Zhang
 
 <p align="center">
   <a href="#updates">Updates</a> |
@@ -9,6 +10,7 @@
 
 <p align="left">
 <a href="https://arxiv.org/abs/2208.03987"><img src="https://img.shields.io/badge/arXiv-Paper-<color>"></a>
+<a href="https://ieeexplore.ieee.org/document/9956816"><img src="https://img.shields.io/badge/TGRS-Paper-blue"></a>
 </p>
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/advancing-plain-vision-transformer-towards/object-detection-in-aerial-images-on-dota-1)](https://paperswithcode.com/sota/object-detection-in-aerial-images-on-dota-1?p=advancing-plain-vision-transformer-towards)
@@ -34,9 +36,13 @@
 
 ## Updates
 
+### 2022.11.21
+
+The early access is available! [TGRS link](https://ieeexplore.ieee.org/document/9956816)
+
 ### 2022.11.15
 
-The arXiv has been updated!
+The arXiv has been updated! [arXiv link](https://arxiv.org/abs/2208.03987)
 
 ### 2022.11.06
 
@@ -297,12 +303,26 @@ CUDA_VISIBLE_DEVICES=0 python tools/test.py configs/vit_base_win/upernet_vitae_n
 If this repo is useful for your research, please consider citation
 
 ```
-@article{wang2022advancing,
-  title={Advancing Plain Vision Transformer Towards Remote Sensing Foundation Model},
+@ARTICLE{wang_vitrvsa_2022,
   author={Wang, Di and Zhang, Qiming and Xu, Yufei and Zhang, Jing and Du, Bo and Tao, Dacheng and Zhang, Liangpei},
-  journal={arXiv preprint arXiv:2208.03987},
-  year={2022}
-}
+  journal={IEEE Transactions on Geoscience and Remote Sensing}, 
+  title={Advancing Plain Vision Transformer Towards Remote Sensing Foundation Model}, 
+  year={2022},
+  volume={},
+  number={},
+  pages={1-1},
+  doi={10.1109/TGRS.2022.3222818}
+  }
+  
+@ARTICLE{wang_rsp_2022,  
+author={Wang, Di and Zhang, Jing and Du, Bo and Xia, Gui-Song and Tao, Dacheng},  
+journal={IEEE Transactions on Geoscience and Remote Sensing},   
+title={An Empirical Study of Remote Sensing Pretraining},   
+year={2022},  
+volume={},  
+number={},  
+pages={1-1},  
+doi={10.1109/TGRS.2022.3176603}}
 ```
 
 ## Statement
