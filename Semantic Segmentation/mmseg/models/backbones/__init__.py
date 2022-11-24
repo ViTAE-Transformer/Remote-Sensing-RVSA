@@ -21,7 +21,6 @@ from .vit import VisionTransformer
 from .our_resnet import Our_ResNet
 from .ViTAE_Window_NoShift.base_model import ViTAE_Window_NoShift_basic
 from .swin_transformer import swin
-from .ViTAE_DeformWindow_NoShift_v1.ViTAE_DeformWindow_NoShift_v1 import ViTAE_DeformWindow_NoShift_v1_basic
 
 
 
