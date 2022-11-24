@@ -36,7 +36,6 @@ __all__ = [
     'VisionTransformer', 'SwinTransformer', 'MixVisionTransformer',
     'BiSeNetV1', 'BiSeNetV2', 'ICNet', 'TIMMBackbone', 'ERFNet', 'PCPVT',
     'SVT', 'STDCNet', 'STDCContextPathNet','ViTAE_Window_NoShift_basic',
-    'Our_ResNet', 'swin','ViTAE_DeformWindow_NoShift_v1_basic', 
-    'ViT_Win_RVSA_V3_WSZ7', 'ViT_Win_RVSA_V3_KVDIFF_WSZ7',
+    'Our_ResNet', 'swin','ViT_Win_RVSA_V3_WSZ7', 'ViT_Win_RVSA_V3_KVDIFF_WSZ7',
     'ViTAE_NC_Win_RVSA_V3_WSZ7', 'ViTAE_NC_Win_RVSA_V3_KVDIFF_WSZ7'
 ]
