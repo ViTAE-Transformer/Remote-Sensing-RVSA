@@ -333,4 +333,8 @@ This project is for research purpose only. For any other questions please contac
 
 The codes of Pretraining & Scene Classification part mainly from [MAE](https://github.com/facebookresearch/mae).
 
+## Relevant Projects
+[1] <strong>An Empirical Study of Remote Sensing Pretraining, IEEE TGRS, 2022</strong> | [Paper](https://ieeexplore.ieee.org/document/9782149) | [Github](https://github.com/ViTAE-Transformer/ViTAE-Transformer-Remote-Sensing)
+<br><em>&ensp; &ensp; &ensp;Di Wang<sup>&#8727;</sup>, Jing Zhang<sup>&#8727;</sup>, Bo Du, Gui-Song Xia and Dacheng Tao</em>
+
 
