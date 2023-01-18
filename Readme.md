@@ -36,6 +36,10 @@
 
 ## Updates
 
+### 2023.01.18
+
+Our models have been supported by [LuoJiaNET](https://github.com/WHULuoJiaTeam/luojianet), please refer to [RS-Vision-Foundation-Models](https://github.com/WHULuoJiaTeam/Model_Zoo/tree/main/RS_Vision_Foundation_Models) for more details.
+
 ### 2022.11.21
 
 The early access is available! [TGRS link](https://ieeexplore.ieee.org/document/9956816)
