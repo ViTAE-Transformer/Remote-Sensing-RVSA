@@ -331,7 +331,7 @@ doi={10.1109/TGRS.2022.3176603}}
 
 ## Statement
 
-This project is for research purpose only. For any other questions please contact [di.wang at gmail.com](mailto:wd74108520@gmail.com) .
+For any other questions please contact [di.wang at gmail.com](mailto:wd74108520@gmail.com) .
 
 ## References
 
