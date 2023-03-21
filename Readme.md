@@ -37,7 +37,7 @@
 ## Updates
 
 ### 2023.03.18
-ViTAE-B + RVSA helped us win the championship of "High Resolution SAR Image Coastal Aquaculture Farm Segmentation Track" in "The 5th Geovis Cup International High Resolution Remote Sensing Image Interpretation Challenge", Team: TNT. （第五届“中科星图杯”国际高分遥感图像解译大赛高分辨率SAR图像中近海养殖场分割赛道冠军）[News](https://mp.weixin.qq.com/s/zJ2jOXa8rwIPGJ0vg2znDw)
+ViTAE-B + RVSA helped us win the championship of "High Resolution SAR Image Coastal Aquaculture Farm Segmentation Track" in "The 5th Gaofen Challenge", Team: TNT. （第五届“中科星图杯”国际高分遥感图像解译大赛高分辨率SAR图像中近海养殖场分割赛道冠军）[News](https://mp.weixin.qq.com/s/zJ2jOXa8rwIPGJ0vg2znDw)
 
 ### 2023.01.18
 
