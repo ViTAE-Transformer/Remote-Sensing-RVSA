@@ -36,6 +36,9 @@
 
 ## Updates
 
+### 2023.03.18
+ViTAE-B + RVSA helped us win the championship of "High Resolution SAR Image Coastal Aquaculture Farm Segmentation Track" in "The 5th Geovis Cup International High Resolution Remote Sensing Image Interpretation Challenge", Team: TNT. （第五届“中科星图杯”国际高分遥感图像解译大赛“高分辨率SAR图像中近海养殖场分割赛道冠军队）
+
 ### 2023.01.18
 
 Our models have been supported by [LuoJiaNET](https://github.com/WHULuoJiaTeam/luojianet), please refer to [RS-Vision-Foundation-Models](https://github.com/WHULuoJiaTeam/Model_Zoo/tree/main/RS_Vision_Foundation_Models) for more details.
