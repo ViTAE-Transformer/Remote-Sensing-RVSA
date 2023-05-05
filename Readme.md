@@ -310,16 +310,16 @@ CUDA_VISIBLE_DEVICES=0 python tools/test.py configs/vit_base_win/upernet_vitae_n
 If this repo is useful for your research, please consider citation
 
 ```
-@ARTICLE{wang_vitrvsa_2022,
+@ARTICLE{rvsa,
   author={Wang, Di and Zhang, Qiming and Xu, Yufei and Zhang, Jing and Du, Bo and Tao, Dacheng and Zhang, Liangpei},
   journal={IEEE Transactions on Geoscience and Remote Sensing}, 
-  title={Advancing Plain Vision Transformer Towards Remote Sensing Foundation Model}, 
-  year={2022},
-  volume={},
+  title={Advancing Plain Vision Transformer Toward Remote Sensing Foundation Model}, 
+  year={2023},
+  volume={61},
   number={},
-  pages={1-1},
-  doi={10.1109/TGRS.2022.3222818}
-  }
+  pages={1-15},
+  doi={10.1109/TGRS.2022.3222818}}
+
   
 @ARTICLE{wang_rsp_2022,  
 author={Wang, Di and Zhang, Jing and Du, Bo and Xia, Gui-Song and Tao, Dacheng},  
