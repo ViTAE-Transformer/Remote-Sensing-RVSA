@@ -318,18 +318,19 @@ If this repo is useful for your research, please consider citation
   volume={61},
   number={},
   pages={1-15},
-  doi={10.1109/TGRS.2022.3222818}}
+  doi={10.1109/TGRS.2022.3222818}
+ }
 
-  
-@ARTICLE{wang_rsp_2022,  
-author={Wang, Di and Zhang, Jing and Du, Bo and Xia, Gui-Song and Tao, Dacheng},  
-journal={IEEE Transactions on Geoscience and Remote Sensing},   
-title={An Empirical Study of Remote Sensing Pretraining},   
-year={2022},  
-volume={},  
-number={},  
-pages={1-1},  
-doi={10.1109/TGRS.2022.3176603}}
+@ARTICLE{rsp,
+  author={Wang, Di and Zhang, Jing and Du, Bo and Xia, Gui-Song and Tao, Dacheng},
+  journal={IEEE Transactions on Geoscience and Remote Sensing}, 
+  title={An Empirical Study of Remote Sensing Pretraining}, 
+  year={2023},
+  volume={61},
+  number={},
+  pages={1-20},
+  doi={10.1109/TGRS.2022.3176603}
+}
 ```
 
 ## Statement
