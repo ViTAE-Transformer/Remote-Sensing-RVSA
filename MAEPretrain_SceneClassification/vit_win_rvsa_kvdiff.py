@@ -389,7 +389,7 @@ class RotatedVariedSizeWindowAttention_KVDIFF(nn.Module):
             sampling_angle_k = sampling_angle_k.reshape(num_predict_total, 1, window_num_h, window_num_w)
             
             sampling_angle_v = self.sampling_angles_v(x)
-            sampling_angle_v = sampling_angle_k.reshape(num_predict_total, 1, window_num_h, window_num_w)
+            sampling_angle_v = sampling_angle_v.reshape(num_predict_total, 1, window_num_h, window_num_w)
 
             # first scale
             
