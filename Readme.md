@@ -193,7 +193,7 @@ Environment:
 
 #### Pretraining (8 × A100 GPUs, 3~5 days)
 
-1. Preparing the MillionAID: Download the [MillionAID](https://captain-whu.github.io/DiRS/). Here, we use previous `train_labels.txt` and `valid_labels.txt` of the [ViTAE-Transformer-Remote-Sensing](https://github.com/ViTAE-Transformer/ViTAE-Transformer-Remote-Sensing), which contain labels. However, since we conduct the ***unsupervised pretraining***, the labels are not necessary. It is easy for users to record image names and revise corresponding codes `MAEPretrain_SceneClassification/util/datasets.py/class MillionAIDDataset`.
+1. Preparing the MillionAID: Download the [MillionAID](https://captain-whu.github.io/DiRS/). Here, we use previous `train_labels.txt` and `valid_labels.txt` of the [RSP](https://github.com/ViTAE-Transformer/RSP.git), which contain labels. However, since we conduct the ***unsupervised pretraining***, the labels are not necessary. It is easy for users to record image names and revise corresponding codes `MAEPretrain_SceneClassification/util/datasets.py/class MillionAIDDataset`.
 
 2. Pretraining: take ViT-B as an example (batchsize: 2048=8*256)
 
@@ -231,7 +231,7 @@ CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node 1 --m
 
 ### Finetuning-Detection & Finetuning-Segmentation
 
-Since we use OBBDetection and MMSegmenation to implement corresponding detection or segmentation models, we only provide necessary config and backbone files. The main frameworks are both in [ViTAE-Transformer-Remote-Sensing](https://github.com/ViTAE-Transformer/ViTAE-Transformer-Remote-Sensing)
+Since we use OBBDetection and MMSegmenation to implement corresponding detection or segmentation models, we only provide necessary config and backbone files. The main frameworks are both in [RSP](https://github.com/ViTAE-Transformer/RSP.git)
 
 ```
 git clone https://github.com/ViTAE-Transformer/ViTAE-Transformer-Remote-Sensing.git
