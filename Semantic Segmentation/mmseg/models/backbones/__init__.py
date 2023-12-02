@@ -21,7 +21,6 @@ from .vit import VisionTransformer
 from .our_resnet import Our_ResNet
 from .ViTAE_Window_NoShift.base_model import ViTAE_Window_NoShift_basic
 from .swin_transformer import swin
-from .ViTAE_DeformWindow_NoShift_v1.ViTAE_DeformWindow_NoShift_v1 import ViTAE_DeformWindow_NoShift_v1_basic
 
 
 
@@ -37,7 +36,6 @@ __all__ = [
     'VisionTransformer', 'SwinTransformer', 'MixVisionTransformer',
     'BiSeNetV1', 'BiSeNetV2', 'ICNet', 'TIMMBackbone', 'ERFNet', 'PCPVT',
     'SVT', 'STDCNet', 'STDCContextPathNet','ViTAE_Window_NoShift_basic',
-    'Our_ResNet', 'swin','ViTAE_DeformWindow_NoShift_v1_basic', 
-    'ViT_Win_RVSA_V3_WSZ7', 'ViT_Win_RVSA_V3_KVDIFF_WSZ7',
+    'Our_ResNet', 'swin','ViT_Win_RVSA_V3_WSZ7', 'ViT_Win_RVSA_V3_KVDIFF_WSZ7',
     'ViTAE_NC_Win_RVSA_V3_WSZ7', 'ViTAE_NC_Win_RVSA_V3_KVDIFF_WSZ7'
 ]
