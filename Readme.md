@@ -36,6 +36,10 @@
 
 ## Updates
 
+### 2025.02.16
+
+The inference framework of RVSA on the Baidu PaddlePaddle is provided! See **/MAEPretrain_SceneClassification/Paddle/**
+
 ### 2023.10.18
 
 RVSA won the highly cited paper!
