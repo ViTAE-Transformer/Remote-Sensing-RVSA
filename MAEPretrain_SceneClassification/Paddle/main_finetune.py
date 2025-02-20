@@ -14,8 +14,6 @@ import os
 
 from pathlib import Path
 
-
-import util.misc as misc
 from util.datasets import build_dataset
 
 import paddle
@@ -165,7 +163,7 @@ def main(args):
 
     if args.eval:
         paddle.set_device("gpu")
-        metric_logger = misc.MetricLogger(delimiter="  ")
+        
 
         ##把pth转成paddlepaddle权重
         def torch2paddle():
@@ -226,7 +224,7 @@ def main(args):
                 output_concat=np.concatenate([output_concat,output.cpu().numpy()])
                 target_concat = np.concatenate([target_concat, target.cpu().numpy()])
 
-        acc1 = paddle.metric.accuracy(output, target.unsqueeze(1), k=1)
+        acc1 = paddle.metric.accuracy(paddle.to_tensor(output_concat), paddle.to_tensor(np.expand_dims(target_concat,1)), k=1)
         print('Acc',acc1)
         exit(0)
 
