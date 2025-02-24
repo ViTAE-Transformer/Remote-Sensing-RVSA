@@ -38,6 +38,10 @@
 
 ### 2025.02.24
 
+The classification inference framework of RVSA on the Huawei MindSpore is provided! See **/MAEPretrain_SceneClassification/MindSpore/**
+
+### 2025.02.24
+
 The classification inference framework of RVSA on the Tsinghua Jittor is provided! See **/MAEPretrain_SceneClassification/jittor/**
 
 ### 2025.02.16
