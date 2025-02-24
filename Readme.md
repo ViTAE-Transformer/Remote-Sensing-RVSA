@@ -36,6 +36,10 @@
 
 ## Updates
 
+### 2025.02.24
+
+The classification inference framework of RVSA on the Tsinghua Jittor is provided! See **/MAEPretrain_SceneClassification/jittor/**
+
 ### 2025.02.16
 
 The classification inference framework of RVSA on the Baidu PaddlePaddle is provided! See **/MAEPretrain_SceneClassification/Paddle/**
